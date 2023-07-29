@@ -1,0 +1,20 @@
+curl --location --request PUT 'localhost:8080/customer/ce249ec4-89ed-4eba-b444-a7018d3d0a29' \
+--header 'Content-Type: application/json' \
+--data-raw '{
+    "age": 25,
+    "name": "robin-update",
+    "dob": "2011-10-02",
+    "contactList": [
+        {
+            "contactType": "EMAIL",
+            "contactAddress": "testhehe@gmail.com",
+            "active": "true"
+        },
+         {
+            "contactType": "PHONE",
+            "contactAddress": "sudatest@gmail.com",
+            "active": "true"
+        }
+    ],
+    "activeFlag": true
+}'

@@ -1,0 +1,1 @@
+curl --location --request DELETE 'localhost:8080/customer/5325b5eb-c16d-46a5-a5d5-fa6ef345fb73'

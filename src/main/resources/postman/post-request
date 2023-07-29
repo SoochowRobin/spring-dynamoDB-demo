@@ -1,0 +1,15 @@
+curl --location 'localhost:8080/customer' \
+--header 'Content-Type: application/json' \
+--data-raw '{
+    "age": 25,
+    "name": "robin",
+    "dob": "2011-10-02",
+    "contactList": [
+        {
+            "contactType": "EMAIL",
+            "contactAddress": "testhehe@gmail.com",
+            "active": "true"
+        }
+    ],
+    "activeFlag": true
+}'

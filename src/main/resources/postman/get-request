@@ -1,0 +1,1 @@
+curl --location 'localhost:8080/customer/92bd2176-5b3f-4efa-8d54-cef9d809b7e2'
