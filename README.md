@@ -5,5 +5,5 @@ Postman sample CURLs are in the folder: /resources/postman. Do not forget to imp
 
 And you just need to clone the code and modify application.properties file to replace the AWS credentials and DynamoDB region with yours. Then you could start this application.<br>
 
-The detailed information could refer to my blog the  [medium blog](https://medium.com/@sudacgb/message-queue-a-complete-guide-aa956ada2e98) . <br>
+The detailed information could refer to my blog the  [medium blog](https://medium.com/@sudacgb/integrate-aws-dynamodb-with-spring-boot-dc62b9ceae96) . <br>
 
